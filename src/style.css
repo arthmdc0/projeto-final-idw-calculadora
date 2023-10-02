@@ -98,9 +98,25 @@ li {
    text-align: center;
 }
 
-#login-form input[type="text"],
+#cadastro-form {
+   max-width: 300px;
+   margin: 0 auto;
+   text-align: center;
+}
+
 #login-form input[type="email"],
 #login-form input[type="password"] {
+   width: calc(100% - 20px);
+   padding: 8px;
+   margin-bottom: 5px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+#cadastro-form input[type="text"],
+#cadastro-form input[type="email"],
+#cadastro-form input[type="password"] {
    width: calc(100% - 20px);
    padding: 8px;
    margin-bottom: 5px;
